@@ -1,0 +1,59 @@
+/* responsive Phone เมื่อแสดงบนมือถือ*/
+@media screen and (max-width: 600px){
+    /* ปรับ Tag Main */
+    main{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+    /* ปรับ Tag Nav ให้ปุ่มอยู่ตรงกลาง */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    /* Tag Header และ h1 ใน Header ปรับขนาดตัวอักษรแสดงหน้าแรก */
+    header {
+        font-size: 20px;
+        padding: 15% 10%;
+    }
+    header h1 {
+        font-size: 60px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    /* Tag Img ปรับขนาดรูปโปรไฟล์หน้าส่วนตัว */
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+/* responsive Tablets เมื่อแสดงบนแท็บแล็ตหรือไอแพต */
+@media only screen and (min-width: 600px) {
+    /* ปรับ Tag Main */
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ปรับ Tag Nav ul ให้ปุ่มอยู่ตรงกลาง */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+/*responsive Laptop เมื่อแสดงบนเครื่องโน้ตบุค แล็ปท็อป*/
+@media screen and (min-width: 992px) {
+    /* ปรับ Tag Main */
+    main{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    /* ปรับ Tag Nav ul ให้ปุ่มอยู่ตรงชิดขวา */
+    nav ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+}
+

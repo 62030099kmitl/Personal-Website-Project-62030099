@@ -1,0 +1,95 @@
+/* CSS Style ที่ใช้ทั้งเว็บไซต์ */
+* {
+    box-sizing: border-box;
+  }
+/* Tag body แสดงเป็น grid */
+body {
+    display: grid;
+    background-color: #1d1716;
+}
+/* class container กล่องแสดงหน้าแรกและหน้า about ปรับความกว้าง padding และให้ตรงกลาง*/
+.container {
+    padding: 5% 10%;
+    text-align: center;
+}  
+/* Tag h1 ปรับขนาดและสีตัวอักษร*/
+h1 {
+    color: #a55233;
+    font-size: 50px;
+}
+/* Tag h2 ปรับขนาดและสีตัวอักษร*/
+h2 {
+    color: #f3bc77;
+    font-size: 36px;
+}
+/* Tag p หรือ paragraph ปรับขนาดและสีตัวอักษร*/
+p {
+    color: #f3bc77;
+    font-size: 25px;
+}
+/* Tag img ทำให้รูปอยู่ในรูปแบบวงกลม */
+img {
+    clip-path: circle();
+    max-width: 50%;
+    height: auto;
+}
+/* Tag Nav สีพื้นหลัง*/
+nav {
+    background-color: #402a23;
+}
+/* Tag Nav ul ปรับ Nav แต่ละตัวให้แสดงเป็น Flex และ ชิดขวา */
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+/* Tag Nav ปรับระยะ Padding แต่ละตัว*/
+nav li {
+    padding: 10px 30px;
+}
+/* Tag Nav a ปรับสีและรูปแบบตัวอักษร */
+nav a {
+    color: #f3bc77;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Tag Nav a ปรับสีและรูปแบบตัวอักษรเมื่อนำเมาส์ไปวางบน Nav a */
+nav a:hover {
+    color: #a55233;
+    text-decoration: line-through;
+}
+/* Tag Header ปรับขนาดตัวอักษรและระยะ padding*/
+header {
+    font-size: 25px;
+    padding: 15% 10%;
+}
+/* Tag Header h1 ปรับขนาดตัวอักษรและระยะซ้ายขวา Padding */
+header h1 {
+    font-size: 90px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+/* Id BackgroundHome ปรับรูปพื้นหลังที่แสดงหน้าเว็บ ปรับ Contrast และ brightness เพิ่มเติม*/
+#background{
+    background: url('../img/bg-home.jpg') center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    filter: contrast(150%) brightness(90%);
+}
+/* footer */
+/* class Social แสดง flex ปรับช่องว่างแต่ละ flex-item*/
+.social {
+    display: flex;
+    justify-content: space-around;
+}
+/* Tag footer ปรับ Icon SVG สีและขนาด */
+footer .svg-inline--fa {
+    color: #f3bc77;
+    font-size: 65px;
+}
+/* Tag footer ปรับ Icon SVG สี เมื่อนำเมาส์ไปชี้วางบนแต่ละ Icon*/
+footer .svg-inline--fa:hover {
+    color: #a55233;
+}
+
