@@ -30,6 +30,7 @@ p {
 /* Tag img ทำให้รูปอยู่ในรูปแบบวงกลม */
 img {
     clip-path: circle();
+    width: 500px;
     max-width: 50%;
     height: auto;
 }
@@ -90,6 +91,20 @@ footer .svg-inline--fa {
 }
 /* Tag footer ปรับ Icon SVG สี เมื่อนำเมาส์ไปชี้วางบนแต่ละ Icon*/
 footer .svg-inline--fa:hover {
+    color: #a55233;
+}
+/* Tag footer a ปรับสีกดไปยังลิ้งเว็บอ้างอิง */
+footer a {
+    color: #f3bc77;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* Tag footer a เปลี่ยนสีเมื่อมีการนำเมาส์ชี้วาง */
+footer a:hover {
+    color: #a55233;
+}
+/* Tag footer p ปรับสี paragraph */
+footer p {
     color: #a55233;
 }
 
