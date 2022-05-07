@@ -81,6 +81,7 @@ header h1 {
 /* footer */
 /* class Social แสดง flex ปรับช่องว่างแต่ละ flex-item*/
 .social {
+
     display: flex;
     justify-content: space-around;
 }
@@ -106,5 +107,9 @@ footer a:hover {
 /* Tag footer p ปรับสี paragraph */
 footer p {
     color: #a55233;
+}
+/* class Contact ปรับระยะ padding-top */
+.contact{
+    padding-top: 15%;
 }
 
